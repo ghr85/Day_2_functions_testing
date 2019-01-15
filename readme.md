@@ -14,6 +14,10 @@ completed as homework.
 * Brackets can be used for BOMDAS operations.
 * Including a wee decimal point will automatically˜ convert to float.
 
+### Files
+
+* ruby_functions_practice.rb - Derived functions.
+* ruby_functions_spec.rb - Initial Tests.
 
 > "No one said it would be easy...."
 > "Yeah but no one said it would be this bloody difficult!"
