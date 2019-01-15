@@ -1,6 +1,17 @@
+# Codeclan Week 01 Day 02
+#
+# Pair Programming Exercise
+# Testing
+#
+# ------------
+#
+# Task: Given a set of tests can you translate them to the apropriate functions?
+
+
 require( 'minitest/autorun' )
 require( 'minitest/rg' )
 require_relative( '../ruby_functions_practice' )
+
 
 class FunctionsTest < MiniTest::Test
 
@@ -87,14 +98,16 @@ class FunctionsTest < MiniTest::Test
   end
 
   # #Given the radius of a sphere calculate the volume
-  # def test_volume_of_sphere()
-  #   #add test code here
-  # end
+  def test_volume_of_sphere()
+    test_volume = volume_of_sphere(3)
+    assert_equal(113,test_volume)
+  end
   #
   # #Given a value in farenheit, convert this into celsius.
-  # def test_fahrenheit_to_celsius()
-  #   #add test code here
-  # end
+  def test_fahrenheit_to_celsius()
+ test_celcius = fahrenheit_to_celsius(100)
+ assert_equal(38,test_celcius)
+  end
 
 
 end

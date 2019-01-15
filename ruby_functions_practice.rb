@@ -1,3 +1,7 @@
+# Codeclan Week 01 Day 2
+# Pair Programming lab - Testing
+
+
 def return_10
   return 10
 end
@@ -49,10 +53,21 @@ def number_to_short_month_name(number)
         "Apr"
       when 10
         "Oct"
-    end
+      end
     return result
 end
 
 def volume_of_cube(length)
   return (length * length * length)
+end
+
+def volume_of_sphere(radius)
+  truncate = 1.333 * 3.14 * (radius**3)
+  return truncate.round
+end
+
+def fahrenheit_to_celsius(farenheit)
+  celcius = ((farenheit-32.0)*5)/9 #PITA Note that inclusion of DP turns to float
+  return celcius.round
+
 end
